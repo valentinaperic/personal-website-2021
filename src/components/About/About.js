@@ -21,7 +21,10 @@ const About = () => (
         <p class="interests"> In a nutshell, I am a community driven engineer who enjoys making the web intuitive,
         accessible, secure, and fast.
         </p>
-          When I am not coding, I am either attending tech events, playing video games, or playing the violin in my community orchestra.
+          <p>When I am not coding, I am either attending tech events, playing video games, or playing the violin in my community orchestra.</p>
+          <a href="https://www.linkedin.com/in/valentinaperic/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/valentinaperic" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/valentinacodes" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
   </div>

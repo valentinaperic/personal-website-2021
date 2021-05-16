@@ -22,9 +22,30 @@
 
       .interests {
         text-align: center;
-        padding: 40px;
+        padding: 30px;
         border: 3px solid #F09F9B;
         margin: 30px 0px 30px 0px;
+      }
+    }
+
+
+   
+
+
+    .fab {
+      font-size: 25px;
+      margin-right: 10px;
+
+      &.fa-linkedin-in {
+        color: #0072b1;
+      }
+
+      &.fa-github {
+        color: black;
+      }
+  
+      &.fa-twitter {
+        color:  #1DA1F2
       }
     }
   }
