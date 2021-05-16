@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import About from './components/About/About.js';
 import TypewriterContent from './components/TypewriterContent/TypewriterContent';
+import Projects from './components/Projects/Projects';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" component={Navigation} />
         <Route exact path="/" component={TypewriterContent} />
         <Route path="/About" component={About} />
+        <Route path="/Projects" component={Projects} />
       </div>
     </Router>
 
