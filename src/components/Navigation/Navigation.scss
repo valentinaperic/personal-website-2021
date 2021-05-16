@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+
+  
+  .vc-logo {
+    width: 450px;
+    
+    @media (max-width: 767px) {
+      width: 100%; 
+    }
+  }
+}

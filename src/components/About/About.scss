@@ -1,0 +1,31 @@
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 767px) {
+        flex-direction: row;
+    }
+
+    .about-me-img-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      .about-me-img {
+        width: 300px;
+        border-radius: 40px;
+      }
+    }
+    .about-me-bio {
+        @media (min-width: 767px) {
+            margin-left: 50px;
+        }
+
+      .interests {
+        text-align: center;
+        padding: 40px;
+        border: 3px solid #F09F9B;
+        margin: 30px 0px 30px 0px;
+      }
+    }
+  }
+  
