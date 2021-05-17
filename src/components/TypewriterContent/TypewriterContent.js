@@ -13,6 +13,7 @@ const TypewriterContent = () => (
       onInit={(typewriter) => {
          typewriter.typeString('Hi, my name is Valentina Peric. ')
            .pauseFor(1000)
+         typewriter.typeString('<br/>')
          typewriter.typeString('I am a software engineer.')
            .pauseFor(1500)
            .deleteChars(18)
