@@ -2,8 +2,8 @@ import Typewriter from 'typewriter-effect';
 import './TypewriterContent.scss';
 
 const TypewriterContent = () => (
-  <div class="typewriter-content">
-    <div class="container">
+  <div className="typewriter-content">
+    <div className="container">
       <Typewriter
         options={{
         autoStart: true,

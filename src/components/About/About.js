@@ -3,7 +3,7 @@ import headshot from '../About/headshot.jpg';
 import './About.scss';
 
 const About = () => (
-  <div class="container">
+  <div className="container">
     <div className="about-me-content">
       <div className="about-me-img-container">
         <img src={headshot} className="about-me-img" alt="Valentina Peric Headshot" /> 
@@ -18,13 +18,13 @@ const About = () => (
         <p>So, this is how the journey of forever being a student started.
         I attained my degree in computer science in 2016 and I have been coding ever since.</p>
 
-        <p class="interests"> In a nutshell, I am a community driven engineer who enjoys making the web intuitive,
+        <p className="interests"> In a nutshell, I am a community driven engineer who enjoys making the web intuitive,
         accessible, secure, and fast.
         </p>
           <p>When I am not coding, I am either attending tech events, playing video games, or playing the violin in my community orchestra.</p>
-          <a href="https://www.linkedin.com/in/valentinaperic/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/valentinaperic" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
-          <a href="https://twitter.com/valentinacodes" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/valentinaperic/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/valentinaperic" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+          <a href="https://twitter.com/valentinacodes" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
       </div>
     </div>
   </div>
