@@ -1,10 +1,12 @@
 import phraseGameImg from '../../images/phrase-game-gameplay.png';
+import nodeExpressPortfolioImg from '../../images/node-express-portfolio.png';
 import './Projects.scss';
 
 const Projects = () => (
     <div className="projects-container">
         <div className="container">
             <PhraseGuessGame />
+            <NodeExpressPortfolio />
         </div>
     </div>
 );
@@ -26,6 +28,27 @@ const PhraseGuessGame = () => (
                 <div className="project-buttons">
                     <a className="button" href="https://valentinaperic.github.io/phrase-guess-game/" rel="noreferrer" target="_blank">Live Demo</a>
                     <a className="button" href="https://github.com/valentinaperic/phrase-guess-game" rel="noreferrer" target="_blank">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+);
+
+const NodeExpressPortfolio = () => (
+    <div className="project-section">
+        <h1 className="project-title">Node Express Portfolio</h1>
+        <div className="project">   
+            <div className="project-image">
+                <img src={nodeExpressPortfolioImg} alt="Node Express Portfolio"/>
+            </div>
+            <div className="project-description">
+                <p>This is a portfolio site that was built on Node.js and Express. It showcases some small projects that I have worked on!</p>
+                
+                <p>It also uses pug templates which is a template engine for Node which was a fun added touch. This app was deployed using Heroku.</p>
+
+                <div className="project-buttons">
+                    <a className="button" href="https://github.com/valentinaperic/node-express-portfolio" rel="noreferrer" target="_blank">Live Demo</a>
+                    <a className="button" href="https://node-portfolio-valentina-peric.herokuapp.com/" rel="noreferrer" target="_blank">GitHub Repo</a>
                 </div>
             </div>
         </div>
