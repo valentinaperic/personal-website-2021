@@ -47,8 +47,8 @@ const NodeExpressPortfolio = () => (
                 <p>It also uses pug templates which is a template engine for Node which was a fun added touch. This app was deployed using Heroku.</p>
 
                 <div className="project-buttons">
-                    <a className="button" href="https://github.com/valentinaperic/node-express-portfolio" rel="noreferrer" target="_blank">Live Demo</a>
-                    <a className="button" href="https://node-portfolio-valentina-peric.herokuapp.com/" rel="noreferrer" target="_blank">GitHub Repo</a>
+                    <a className="button" href="https://node-portfolio-valentina-peric.herokuapp.com/" rel="noreferrer" target="_blank">Live Demo</a>
+                    <a className="button" href="https://github.com/valentinaperic/node-express-portfolio" rel="noreferrer" target="_blank">GitHub Repo</a>
                 </div>
             </div>
         </div>
