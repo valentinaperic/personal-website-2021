@@ -1,6 +1,10 @@
 .project-section {
     margin-bottom: 45px;
     border-bottom: 2px solid #f09f9b; 
+
+    &:last-of-type {
+        border-bottom: none;
+    }
 }
 
 .project-title {
