@@ -1,5 +1,6 @@
 import phraseGameImg from '../../images/phrase-game-gameplay.png';
 import nodeExpressPortfolioImg from '../../images/node-express-portfolio.png';
+import flickrPhotoSearchImg from '../../images/flickr-photo-search.png';
 import './Projects.scss';
 
 const Projects = () => (
@@ -7,6 +8,7 @@ const Projects = () => (
         <div className="container">
             <PhraseGuessGame />
             <NodeExpressPortfolio />
+            <FlickrPhotoSearch />
         </div>
     </div>
 );
@@ -49,6 +51,27 @@ const NodeExpressPortfolio = () => (
                 <div className="project-buttons">
                     <a className="button" href="https://node-portfolio-valentina-peric.herokuapp.com/" rel="noreferrer" target="_blank">Live Demo</a>
                     <a className="button" href="https://github.com/valentinaperic/node-express-portfolio" rel="noreferrer" target="_blank">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+);
+
+const FlickrPhotoSearch = () => (
+    <div className="project-section">
+        <h1 className="project-title">Flickr Photo Search</h1>
+        <div className="project">   
+            <div className="project-image">
+                <img src={flickrPhotoSearchImg} alt="Flickr Photo Search"/>
+            </div>
+            <div className="project-description">
+                <p>This is a project that uses the flickr API to search through photos.</p>
+                
+                <p>It utilizes react features such as routing, props, fetching API data, and JavaScript ES7.</p>
+
+                <div className="project-buttons">
+                    <a className="button" href="https://optimistic-northcutt-514862.netlify.app/" rel="noreferrer" target="_blank">Live Demo</a>
+                    <a className="button" href="https://github.com/valentinaperic/react-gallery-app" rel="noreferrer" target="_blank">GitHub Repo</a>
                 </div>
             </div>
         </div>
