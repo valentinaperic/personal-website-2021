@@ -62,7 +62,7 @@ const FlickrPhotoSearch = () => (
         <h1 className="project-title">Flickr Photo Search</h1>
         <div className="project">   
             <div className="project-image">
-                <img src={flickrPhotoSearchImg} alt="Flickr Photo Search"/>
+                <img src={flickrPhotoSearchImg} alt="Flickr Search"/>
             </div>
             <div className="project-description">
                 <p>This is a project that uses the flickr API to search through photos.</p>
