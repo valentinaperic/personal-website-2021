@@ -22,9 +22,18 @@ const About = () => (
         accessible, secure, and fast.
         </p>
           <p>When I am not coding, I am either attending tech events, playing video games, or playing the violin in my community orchestra.</p>
-          <a href="https://www.linkedin.com/in/valentinaperic/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/valentinaperic" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-          <a href="https://twitter.com/valentinacodes" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/valentinaperic/" target="_blank" rel="noreferrer">
+            <i className="fab fa-linkedin-in"></i>
+            <span className="visually-hidden">LinkedIn</span>
+          </a>
+          <a href="https://github.com/valentinaperic" target="_blank" rel="noreferrer">
+            <i className="fab fa-github"></i>
+            <span className="visually-hidden">Github</span>
+          </a>
+          <a href="https://twitter.com/valentinacodes" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter"></i>
+            <span className="visually-hidden">Twitter</span>
+          </a>
       </div>
     </div>
   </div>
